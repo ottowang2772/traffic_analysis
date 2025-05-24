@@ -1,5 +1,3 @@
-Here's a clear and structured coding prompt for an AI agent tasked with implementing a solver for the **multi-lane traffic flow model** using **Godunov's scheme** to solve the PDEs. This includes both the continuity and velocity equations, as well as handling lane-changing source terms.
-
 ---
 
 ### ✅ Coding Prompt for AI Agent
@@ -90,5 +88,3 @@ At each time step, return:
 * Implement adaptive time-stepping.
 
 ---
-
-Let me know if you'd like a working template, test cases, or to scope this for GPU parallelization or JAX/PyTorch acceleration.
