@@ -106,6 +106,6 @@ $$
 S_{i+1,i} = \lambda \rho_{i+1} \cdot \chi_{(V_i > v_{i+1})} \cdot \chi_{\left( \rho_i < \frac{1}{V_i} \right)}
 $$
 
-Here, \( \chi_{(\cdot)} \) is the indicator function (equal to 1 if the condition is true, and 0 otherwise).
+Here, $\chi_{(\cdot)}$ is the indicator function (equal to 1 if the condition is true, and 0 otherwise).
 
 ---
