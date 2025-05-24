@@ -8,7 +8,7 @@ $$
 d_{\min} = \frac{v}{2}
 $$
 
-Approximating the vehicle spacing as the inverse of density \( d_j \approx \frac{1}{\rho_j} \), the safe lane-change condition becomes:
+Approximating the vehicle spacing as the inverse of density $d_j \approx \frac{1}{\rho_j}$, the safe lane-change condition becomes:
 
 $$
 \rho_j < \frac{1}{v_j}
