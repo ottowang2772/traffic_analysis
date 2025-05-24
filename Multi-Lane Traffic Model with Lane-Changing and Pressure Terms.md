@@ -24,7 +24,7 @@ $$
 
 ---
 
-## 3. Modified Velocity Equation (with Pressure)
+## 3. Velocity Equation with Pressure term
 
 Define the effective velocity:
 
