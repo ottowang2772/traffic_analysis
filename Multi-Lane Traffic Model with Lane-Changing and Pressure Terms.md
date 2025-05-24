@@ -84,7 +84,7 @@ $$
 
 ## 6. Lane-Changing Source Terms
 
-Let $ \lambda $ be the lane-changing rate coefficient. Then:
+Let $\lambda$ be the lane-changing rate coefficient. Then:
 
 ### Outflow Terms
 
