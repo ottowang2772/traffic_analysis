@@ -64,7 +64,7 @@ $$
 
 ## 5. Lane-Changing Conditions
 
-### Inward Lane Change (from lane $ i $ to $ i-1 $)
+### Inward Lane Change (from lane i to i-1)
 
 Allowed **if**:
 
@@ -72,7 +72,7 @@ $$
 V_{i-1} > v_i \quad \text{and} \quad \rho_{i-1} < \frac{1}{V_{i-1}}
 $$
 
-### Outward Lane Change (from lane $ i $ to $ i+1 $)
+### Outward Lane Change (from lane i to i+1)
 
 Allowed **if**:
 
