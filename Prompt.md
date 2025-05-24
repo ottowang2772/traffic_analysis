@@ -1,5 +1,3 @@
----
-
 ### ✅ Coding Prompt for AI Agent
 
 **Objective**: Implement a numerical solver for a **multi-lane traffic flow model** using **Godunov’s scheme**. The model includes **density** and **velocity** equations with **pressure terms** and **lane-changing source terms**.
