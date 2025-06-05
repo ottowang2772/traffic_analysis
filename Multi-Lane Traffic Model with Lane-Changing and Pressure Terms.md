@@ -8,7 +8,7 @@ $$
 d_{\min} = \frac{v*dt}{2000}
 $$
 
-Traffic flow $q=\rho v$, we idealized the model: assume that $q=1$. By the assumption, we can approximate the vehicle spacing as the inverse of density $d_j \approx \frac{1}{\rho_j}$, the safe lane-change condition becomes:
+Traffic flow $q=\rho v$, assume that $q=1$ to idealize. By the assumption, we can approximate the vehicle spacing as the inverse of density $d_j \approx \frac{1}{\rho_j}$, the safe lane-change condition becomes:
 
 $$
 \rho_j < \frac{1}{v_j}
