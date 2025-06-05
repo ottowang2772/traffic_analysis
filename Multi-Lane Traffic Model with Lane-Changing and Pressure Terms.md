@@ -11,7 +11,7 @@ $$
 Traffic flow $q=\rho v$, assume that $q=1$ to idealize. By the assumption, we can approximate the vehicle spacing as the inverse of density $d_j \approx \frac{1}{\rho_j}$, the safe lane-change condition becomes:
 
 $$
-\rho_j < \frac{1}{v_j}
+\rho_j < \frac{1}{d_{min}}
 $$
 
 ---
@@ -19,7 +19,7 @@ $$
 ## 2. Continuity Equation (Density per Lane)
 
 $$
-\partial_t \rho_i + \partial_x (\rho_i v_i) = S_{i-1,i} + S_{i+1,i} - S_{i,i-1} - S_{i,i+1}
+\partial_t \rho_i + \partial_x (\rho_i v_i) = \frac{S_{i-1,i} + S_{i+1,i} - S_{i,i-1} - S_{i,i+1}}{dt}
 $$
 
 ---
@@ -35,7 +35,7 @@ $$
 Then the governing equation becomes:
 
 $$
-\partial_t \omega_i + v_i \, \partial_x \omega_i = \frac{1}{\tau} \left( V_i(\rho_i) - v_i \right) + \frac{1}{\rho_i} \sum_j \left( S_{ji}(v_j - v_i) - S_{ij}(v_i - v_j) \right)
+\partial_t \omega_i + v_i \partial_x \omega_i = \frac{1}{\tau} \left( V_i(\rho_i) - v_i \right) + \frac{1}{\rho_i dt} \sum_j \left( S_{ji}(v_j - v_i) - S_{ij}(v_i - v_j) \right)
 $$
 
 ---
@@ -69,7 +69,7 @@ $$
 Allowed **if**:
 
 $$
-V_{i-1} > v_i \quad \text{and} \quad \rho_{i-1} < \frac{1}{V_{i-1}}
+V_{i-1} > v_i \quad \text{and} \quad \rho_{i-1} < \frac{1}{d_{min, i-1}}
 $$
 
 ### Outward Lane Change (from lane i to i+1)
@@ -77,7 +77,7 @@ $$
 Allowed **if**:
 
 $$
-V_{i+1} < v_i \quad \text{and} \quad \rho_{i+1} < \frac{1}{V_{i+1}}
+V_{i+1} < v_i \quad \text{and} \quad \rho_{i+1} < \frac{1}{d_{min, i+1}}
 $$
 
 ---
