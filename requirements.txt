@@ -1,0 +1,4 @@
+pytorch
+pyro-ppl
+matplotlib
+numpy
